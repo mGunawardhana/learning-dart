@@ -27,7 +27,7 @@ void main() {
   print("output is: ${num3 ~/ num4}");
   /** we can remove doted points value */
 
-  /* Incrementer -  3*/
+  /* Increment -  3*/
   print("before the increment: ${num4}"); // 2
   num4++;
   print("after the increment: ${num4}"); // 3
