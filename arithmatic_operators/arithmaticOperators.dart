@@ -28,13 +28,12 @@ void main() {
   /** we can remove doted points value */
 
   /* Incrementer -  3*/
-  print("before the increment: ${num4}");// 2
+  print("before the increment: ${num4}"); // 2
   num4++;
-  print("after the increment: ${num4}");// 3
+  print("after the increment: ${num4}"); // 3
 
   /* Decrement - 4 */
-  print("before the decrement: ${num3}");// 5
+  print("before the decrement: ${num3}"); // 5
   num3--;
-  print("after the decrement: ${num3}");// 3
-
+  print("after the decrement: ${num3}"); // 3
 }
