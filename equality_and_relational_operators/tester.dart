@@ -28,20 +28,20 @@ void main() {
   var num2 = 2;
 
   print("num1 is greater than num2: " +
-      checkIf(num1, num2, "greaterThan").toString());
+      checkIf(num1, num2, "greaterThan").toString()); // false
 
   print("num1 is less than num2: " +
-      checkIf(num1, num2, "lessThan").toString());
+      checkIf(num1, num2, "lessThan").toString()); //true
 
   print("num1 is greater than or equal to num2: " +
-      checkIf(num1, num2, "greaterThanOrEqualTo").toString());
+      checkIf(num1, num2, "greaterThanOrEqualTo").toString()); //false
 
   print("num1 is less than or equal to num2: " +
-      checkIf(num1, num2, "lessThanOrEqualTo").toString());
+      checkIf(num1, num2, "lessThanOrEqualTo").toString()); //true
 
   print("num1 is not equal to num2: " +
-      checkIf(num1, num2, "notEqualTo").toString());
+      checkIf(num1, num2, "notEqualTo").toString()); //true
 
   print("num1 is equal to num2: " +
-      checkIf(num1, num2, "EqualTo").toString());
+      checkIf(num1, num2, "EqualTo").toString()); //false
 }
