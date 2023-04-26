@@ -20,6 +20,7 @@ void main() {
   a = 20; b = 10;
   a %= b;// 20 % 10 = 0 => a
   print(a);// 0
+  /* this symbol can gave balance of divided value */
 
   /** short hand division */
   a = 20; b = 10;
