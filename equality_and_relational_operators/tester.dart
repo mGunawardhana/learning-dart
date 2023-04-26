@@ -15,6 +15,9 @@ bool checkIf(var num1, var num2, String key) {
     return num1 <= num2;
   } else if (key == "notEqualTo") {
     return num1 != num2;
+  } else if (key == "EqualTo") {
+    return num1 == num2;
+
   } else {
     return false;
   }
@@ -38,4 +41,7 @@ void main() {
 
   print("num1 is not equal to num2: " +
       checkIf(num1, num2, "notEqualTo").toString());
+
+  print("num1 is equal to num2: " +
+      checkIf(num1, num2, "EqualTo").toString());
 }
