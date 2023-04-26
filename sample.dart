@@ -25,12 +25,21 @@ DART --
 
  */
 
-void main() {
-  int age = 23;
+String age(double value) {
+  double nextVal = 12;
 
-  if (age > 18) {
-    print("you are adult!");
-  } else {
-    print("you are child !");
-  }
+  /* we can use curly brasses calculate value like this  */
+  return "Value is ${value + nextVal}";
+}
+
+void main() {
+  int num1 = 12;
+  double num2 = 2.6;
+
+  /* we can use this to get this output - It"s */
+  print("It\"s");
+
+  double sample = num1 + num2;
+
+  print(age(sample));
 }
